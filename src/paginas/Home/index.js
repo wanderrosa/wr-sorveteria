@@ -1,6 +1,7 @@
+import Topo from '../../componentes/topo';
 const Home = ()=>(
     <div>
-        <h1>Home</h1>
+        <Topo/>
     </div>
 );
 export default Home;
