@@ -1,6 +1,7 @@
-const Home = ()=>(
+ export default function Sabores (){
+    return(
     <div>
-        <h1>Sabores</h1>
+        <p>sabores</p>
     </div>
-);
-export default Home;
+    )
+ }

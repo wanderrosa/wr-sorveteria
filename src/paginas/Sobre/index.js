@@ -1,6 +1,7 @@
-const Home = ()=>(
+export default function Sobre (){
+    return(
     <div>
-        <h1>Sobre</h1>
+        <p>sobre</p>
     </div>
-);
-export default Home;
+    )
+ }
