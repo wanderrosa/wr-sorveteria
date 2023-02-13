@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import './Topo.css'
 export default function Topo() {
   return (
     <header>
-      <div>
+      <div className="limitasecao topo">
         <img src="/public/assets/logo.png" alt="logo"></img>
         <nav>
         <Link to={"/"}>Home</Link>
