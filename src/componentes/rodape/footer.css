@@ -1,0 +1,44 @@
+.boxfooter {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.boxcardfooter {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  max-width: 200px;
+  margin: 60px 0;
+}
+footer {
+  background-color: #000;
+  color: #dad6d6;
+}
+.boxfooter p,
+.desenvolvedor {
+  font-size: 14px;
+}
+.txtdesenvolvedor {
+  text-align: center;
+  font-size: 12px;
+}
+@media (width <= 428px) {
+  .boxfooter {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-self: center;
+  }
+  .boxcardfooter {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (width > 729px) and (width < 1024px) {
+
+  .boxcardfooter {
+    justify-content: center;
+    align-items: center;
+  }
+}

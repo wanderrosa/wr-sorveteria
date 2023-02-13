@@ -1,6 +1,33 @@
-.topo{
-    height: 30px;
+.boxtopo{
+  background-color: rgba(252, 226, 111);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left:0;
 }
-.topo img{
-    width: 100%;
+.topo {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.topo a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 20px;
+  padding: 20px;
+}
+.logo {
+  height: 80px;
+}
+@media (width <= 428px) {
+  .topo{ 
+    flex-flow: column nowrap;
+    height: 120px;
+  }
+  header nav{
+    border-top: 1px solid #000;
+    padding: 10px;
+  }
 }
