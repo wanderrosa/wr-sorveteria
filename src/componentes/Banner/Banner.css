@@ -1,0 +1,30 @@
+.banner{
+    background-color:  rgba(252, 226, 111);
+    background-image: url('/public/assets/banner-home.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    margin-top: 80px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 8px #000;
+    text-align: center;
+}
+@media (width <= 428px) {
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+}
+@media (width > 429px) and ( width < 728px) {
+    h1{
+        font-size: 50px;
+    }
+}

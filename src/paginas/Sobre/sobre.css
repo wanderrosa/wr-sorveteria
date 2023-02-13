@@ -1,0 +1,11 @@
+.bannersobre{
+    background-image: url('/public/assets/banner-sobre.png');
+    background-size: cover;
+}
+.boxsobre{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

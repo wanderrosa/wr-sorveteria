@@ -1,0 +1,48 @@
+.bannersabores {
+  background-image: url("/public/assets/banner-sabores.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.boxcardsabores {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% / 3) - 60px);
+  padding: 10px;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #c9c3c3;
+}
+.boxcardsabores p{
+  margin-bottom: 10px;
+}
+.boxcardsabores img {
+  width: 100%;
+}
+.boxsabores {
+  display: flex;
+  flex-flow: row wrap;
+}
+.boxcardsabores span{
+    font-weight: bold;
+}
+@media (width < 428px) {
+    .boxcardsabores{
+        flex-flow: column nowrap;
+    }
+    .boxcardsabores{
+        width: calc(100% - 60px);
+    }
+    
+}
+@media (width > 429px) and ( width < 728px) {
+    .boxcardsabores{
+        width: calc((100% / 2) - 30px);
+    }
+    }
+@media (width > 729px) {
+    .boxcardsabores{
+        width: calc((100% / 3) - 30px);
+    }
+    }

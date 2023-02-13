@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
-import './Topo.css'
+import "./Topo.css";
 export default function Topo() {
   return (
-    <header>
+    <header className="boxtopo">
       <div className="limitasecao topo">
-        <img src="/public/assets/logo.png" alt="logo"></img>
+      <img src="assets/logo.png" alt="logomarca" className="logo"/>
         <nav>
-        <Link to={"/"}>Home</Link>
-        <Link to={"/Sobre"}>Sobre</Link>
-        <Link to={"/Sabores"}>Sabores</Link>
+          <Link to={"/"}>Home</Link>
+          <Link to={"/Sobre"}>Sobre</Link>
+          <Link to={"/Sabores"}>Sabores</Link>
         </nav>
       </div>
     </header>
-  )
+  );
 }
